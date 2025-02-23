@@ -77,9 +77,13 @@ async function handleRequest(request) {
 	const bufferFromStr = encoder.encode(mergedContent);
 	
 	// 使用 btoa 将二进制数据转为 Base64 编码的字符串
-	const base64Str = btoa(String.fromCharCode.apply(null, new Uint8Array(bufferFromStr)));
-
-
+	//const base64Str = btoa(String.fromCharCode.apply(null, new Uint8Array(bufferFromStr)));
+//改成↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
+// 使用 TextDecoder 将 Uint8Array 转换为字符串
+const decoder = new TextDecoder();
+const str = decoder.decode(bufferFromStr);
+// 使用 btoa 将字符串转为 Base64
+const base64Str = btoa(str);
 
 	return new Response(base64Str, {
 		headers: { 'Content-Type': 'text/plain' },
