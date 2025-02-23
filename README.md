@@ -59,10 +59,15 @@ karing: https://karing.app/download 全平台可用的免费客户端，但是�
 创建项目
 
 第一步npm create cloudflare@latest
+
 第二步项目名字必须小写
+
 第三步npm install wrangler
+
 第四步npm install js-yaml
+
 第五步npx wrangler dev
+
 第六步npx wrangler deploy
 
 看上面视频会了第一次后剩下2个文件同理分别重新创建一个wrangler然后再上传部署必须在本地先部署因为要安装依赖 js-yaml
@@ -81,37 +86,53 @@ clashwarp.smallbolt.fun
 第二个clash的   chromegoclash.amazinglinyy.workers.dev
 
 博主在cloudflare上所有的域名
+
 marcol.top
+
 marcosh.filegear-sg.me
+
 marcoshz.ggff.net
+
 marcot.cloudns.biz
+
 marco.us.kg
+
 marcox.cloudns.biz
+
 topmarco.tech
 
 
        这是作者ID↓  /后面↓这是作者项目名字
-作者shiteThings/extractNodes          这个订阅节点多能用不限速         
+作者shiteThings/extractNodes          这个订阅节点多能用不限速  
+
 clash类的
+
 https://goclash.topmarco.tech/      通用base64链接 （shadowrocket和nekoray系列）   https://gob64.topmarco.tech
 
 
 
 这个也快
+
 作者ermaozi/get_subscribe
+
 clash订阅链接https://git.io/emzclash
+
 v2ray订阅链接https://git.io/emzv2ray
 
 
 
 这个也快
+
 作者ripaojiedian/freenode
+
 clash订阅：https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
+
 通用base64/v2ray订阅：https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
 
 
-作者
+
 作者ZywChannel/free
+
 通用base64/v2ray订阅：https://raw.githubusercontent.com/ZywChannel/free/main/sub
 
 
@@ -120,6 +141,7 @@ clash订阅：https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash
 
 
 作者linzjian666 /chromego_extractor
+
 Clash Meta (不带WARP):
 
 https://raw.githubusercontent.com/linzjian666/chromego_extractor/main/outputs/clash_meta.yaml
@@ -134,5 +156,7 @@ https://raw.githubusercontent.com/linzjian666/chrome_extractor/main/outputs/base
 
 
 作者Pawdroid/Free-servers
+
 免费ss/v2ray/trojan节点
+
 https://proxy.v2gh.com/https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
