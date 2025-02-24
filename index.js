@@ -13,108 +13,135 @@ async function handleRequest(request) {
 
 //→→→→→→→→→→→→→→→→→→下面参数取自2025年2月8日的chromego谷歌高内核集合版←←←←←←←←←←←←←←←←←←←←←
 
-
-
-//==========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 clash 最新配置=============↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/clash.meta2/2/config.yaml', type: "clash" },
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/clash.meta2/4/config.yaml', type: "clash" },
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/clash.meta2/6/config.yaml', type: "clash" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/clash.meta2/1/config.yaml', type: "clash" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/clash.meta2/3/config.yaml', type: "clash" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/clash.meta2/5/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/1/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/2/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/3/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/4/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/5/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/6/config.yaml', type: "clash" },
-
-
-//=======上面的是2025年1月6日=======↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 clash 最新配置===========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================
-
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/clash.meta2/2/config.yaml', type: "clash" },
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/clash.meta2/4/config.yaml', type: "clash" },
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/clash.meta2/6/config.yaml', type: "clash" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/clash.meta2/1/config.yaml', type: "clash" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/clash.meta2/3/config.yaml', type: "clash" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/clash.meta2/5/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/1/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/2/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/3/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/4/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/5/config.yaml', type: "clash" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/6/config.yaml', type: "clash" },
-
-//==============↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 clash 最新配置===========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================
-
-
+///////////////////////----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------下面链接clash和xray和hysteria和hysteria2和和都是一个节点，多备份的网页而已
 
 //==============↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=========云端更新 hysteria 最新配置==========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓====================
-
 		{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/1/config.json", type: "hysteria" },
-		{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria/1/config.json", type: "hysteria" },
 		{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/2/config.json", type: "hysteria" },
-		{ url: "https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/hysteria/2/config.json", type: "hysteria" },
 		{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/3/config.json", type: "hysteria" },
-		{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria/3/config.json", type: "hysteria" },
 		{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/4/config.json", type: "hysteria" },
+
+//===========-↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑============云端更新 hysteria 最新配置=================↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=============
+
+//===========--------------备份--------------===↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=========云端更新 hysteria 最新配置==---------------备份-------------========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓====================
+		{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria/1/config.json", type: "hysteria" },
+		{ url: "https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/hysteria/2/config.json", type: "hysteria" },
+		{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria/3/config.json", type: "hysteria" },
 		{ url: "https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/hysteria/4/config.json", type: "hysteria" },
-//===========上面是旧的↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑============云端更新 hysteria 最新配置=================上面是旧的↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=============
+//===========---------------备份--------------↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑============云端更新 hysteria 最新配置=======---------------备份--------------==========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=============
 
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/hysteria/2/config.json', type: "hysteria" },
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/hysteria/4/config.json', type: "hysteria" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria/1/config.json', type: "hysteria" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria/3/config.json', type: "hysteria" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/1/config.json', type: "hysteria" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/2/config.json', type: "hysteria" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/3/config.json', type: "hysteria" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria/4/config.json', type: "hysteria" },
-
-
-
-//==============↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 hysteria 最新配置=================↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=============
 
 //==========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 hysteria2 最新配置=============↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
 
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/hysteria2/2/config.json', type: "hysteria2" },
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/hysteria2/4/config.json', type: "hysteria2" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria2/1/config.json', type: "hysteria2" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria2/3/config.json', type: "hysteria2" },
 { url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria2/1/config.json', type: "hysteria2" },
 { url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria2/2/config.json', type: "hysteria2" },
 { url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria2/3/config.json', type: "hysteria2" },
 { url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/hysteria2/4/config.json', type: "hysteria2" },
 //==============↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 hysteria2 最新配置===========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================
 
-//==========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 singbox 最新配置=============↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/singbox/2/config.json', type: "singbox" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/singbox/config.json', type: "singbox" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/singbox/1/config.json', type: "singbox" },
-{ url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/singbox/2/config.json', type: "singbox" },
-//==============↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 singbox 最新配置===========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================
+//==========↓↓↓↓↓↓↓↓↓备份备份备份备份↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 hysteria2 最新配置=============↓↓↓↓↓↓↓↓↓↓↓↓备份备份备份备份备份↓↓↓↓↓↓↓↓↓↓↓=================
+{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria2/1/config.json', type: "hysteria2" },
+{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/hysteria2/2/config.json', type: "hysteria2" },
+{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/hysteria2/3/config.json', type: "hysteria2" },
+{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/hysteria2/4/config.json', type: "hysteria2" },
+//==============↑↑↑↑↑↑↑备份备份备份备份↑↑↑↑↑↑↑↑↑↑↑=========云端更新 hysteria2 最新配置===========↑↑↑↑↑↑↑↑↑↑备份备份备份备份备份↑↑↑↑↑↑↑↑===================
+
+
 
 
 //==========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 xray 最新配置=============↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/xray/2/config.json', type: "xray" },
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/xray/4/config.json', type: "xray" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/xray/1/config.json', type: "xray" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/xray/3/config.json', type: "xray" },
 { url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/xray/1/config.json', type: "xray" },
 { url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/xray/2/config.json', type: "xray" },
 { url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/xray/3/config.json', type: "xray" },
 { url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/xray/4/config.json', type: "xray" },
-
 //==============↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 xray 最新配置===========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================
+
+//======---------------备份--------------====↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新  最新配置=====---------------备份--------------====↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
+{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/xray/1/config.json', type: "xray" },
+{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/xray/2/config.json', type: "xray" },
+{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/xray/3/config.json', type: "xray" },
+{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/xray/4/config.json', type: "xray" },
+//========---------------备份--------------======↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 xray 最新配置=======---------------备份--------------====↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================
+
+
+
+//==========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 singbox 最新配置=============↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
+{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/singbox/1/config.json", type: "singbox" },
+{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/singbox/2/config.json", type: "singbox" },
+//==============↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 singbox 最新配置===========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================
+
+//======---------------备份--------------====↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 singbox 最新配置====---------------备份--------------=========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
+{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/singbox/config.json", type: "singbox" },
+{ url: "https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/singbox/2/config.json", type: "singbox" },
+//========-------------备份-------------======↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 singbox 最新配置======-------------备份-------------=====↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================
+
+
+//==========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 mieru 最新配置====好像是singbox协议=========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
+{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/mieru/1/config.json", type: "singbox" },
+{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/mieru/2/config.json", type: "singbox" },
+//==========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=============云端更新 mieru 最新配置====好像是singbox协议=========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=================
+
+//======---------------备份--------------====↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 mieru 最新配置====-------好像是singbox协议--------备份--------------=========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
+{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/mieru/1/config.json", type: "singbox" },
+{ url: "https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/mieru/2/config.json", type: "singbox" },
+//======---------------备份--------------====↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=============云端更新 mieru 最新配置====-------好像是singbox协议--------备份--------------=========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=================
+
+
+
+
+
+//==========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 clash 最新配置=============↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
+
+
+
+//=======下面是2025.1.6日===================
+{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/1/config.yaml", type: "clash" },
+{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/2/config.yaml", type: "clash" },
+{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/3/config.yaml", type: "clash" },
+{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/4/config.yaml", type: "clash" },
+{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/5/config.yaml", type: "clash" },
+{ url: "https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/clash.meta2/6/config.yaml", type: "clash" },
+
+//--------------------------------------------备份--------------------------------------------
+{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/clash.meta2/1/config.yaml", type: "clash" },
+{ url: "https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/clash.meta2/2/config.yaml", type: "clash" },
+{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/clash.meta2/3/config.yaml", type: "clash" },
+{ url: "https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/clash.meta2/4/config.yaml", type: "clash" },
+{ url: "https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/clash.meta2/5/config.yaml", type: "clash" },
+{ url: "https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/clash.meta2/6/config.yaml", type: "clash" },
+//=======上面是2025.1.6日===================
+
+//=======上面的是2025年2月8日=======↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 clash 最新配置===========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================
+
+
+
+
+
+
 
 
 
 
 //==========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 naiveproxy 最新配置=====是naiveh吗？========↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
-{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/naiveproxy/2/config.json', type: "naiveh" },
-{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/naiveproxy/1/config.json', type: "naiveh" },
 { url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/naiveproxy/1/config.json', type: "naiveh" },
 { url: 'https://www.gitlabip.xyz/Alvin9999/PAC/master/backup/img/1/2/ip/naiveproxy/2/config.json', type: "naiveh" },
 //==============↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 naiveproxy 最新配置===========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================
+
+//======-------------备份-------------====↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=============云端更新 naiveproxy 最新配置=====是naiveh协议吗？===-------------备份-------------=====↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓=================
+{ url: 'https://gitlab.com/free9999/ipupdate/-/raw/master/backup/img/1/2/ip/naiveproxy/1/config.json', type: "naiveh" },
+{ url: 'https://fastly.jsdelivr.net/gh/Alvin9999/PAC@latest/backup/img/1/2/ip/naiveproxy/2/config.json', type: "naiveh" },
+//======-------------备份-------------========↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑=========云端更新 naiveproxy 最新配置=======-------------备份-------------====↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑===================
+
+
+
+
+
+
+
+
+
+
+
 
 
 
